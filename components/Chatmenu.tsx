@@ -16,12 +16,12 @@ const Chatmenu = () => {
                 BlueFlame
             </Typography>
             <Box className='chatmenu-container'>
-                <Link href={"/dashboard"} className='chatmenulinks'><ChatBubbleIcon />Chat</Link>
-                <Link href={""} className='chatmenulinks'><QuestionMarkIcon />Q & A</Link>
-                <Link href={""} className='chatmenulinks'><DriveFileMoveIcon />File Management</Link>
-                <Link href={""} className='chatmenulinks'><EqualizerIcon />Usage Analysis</Link>
-                <Link href={""} className='chatmenulinks'><MenuOpenIcon />Adult</Link>
-                <Link href={""} className='chatmenulinks'><SettingsApplicationsIcon />Configuration</Link>
+                <Link href={"/dashboard"} className='chatmenulinks'><ChatBubbleIcon />New Chat</Link>
+                <a className='chatmenulinks'><QuestionMarkIcon />Q & A</a>
+                <a className='chatmenulinks'><DriveFileMoveIcon />File Management</a>
+                <a className='chatmenulinks'><EqualizerIcon />Usage Analysis</a>
+                <a className='chatmenulinks'><MenuOpenIcon />Adult</a>
+                <a className='chatmenulinks'><SettingsApplicationsIcon />Configuration</a>
             </Box>
         </>
     )
